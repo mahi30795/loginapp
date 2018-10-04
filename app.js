@@ -10,7 +10,7 @@ var passport = require('passport');
 var LocalStrategy = require('passport-local').Strategy;
 var mongo = require('mongodb');
 var mongoose = require('mongoose');
-var uri = "mongodb+srv://manuwow14@gmail.com:mahi30795@@hrsoft-exll5.mongodb.net/test?retryWrites=true"
+var uri = "mongodb+srv://mahi:mahi30795@hrsoft-exll5.mongodb.net/test?retryWrites=true"
 mongoose.connect(uri);
 var db = mongoose.connection;
 
